@@ -1,0 +1,157 @@
+body{   
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    height: 60px;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+.barra-de-navegacion{
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+
+}
+nav .barra-de-navegacion li a{
+    margin-right: 10px;
+    color: black;
+    
+}
+.icon{
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+
+}
+.imagenperfil{
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+main{
+  margin-top: 150px;
+  text-align: center;
+}
+
+.logo{
+    width: 530px;
+    margin: 0 auto;
+}
+
+.logo img{
+    width: 300px;
+}
+
+.input{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+.input div {
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid;
+    border-color: #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.buscador{
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+.input div:hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+
+.lupa{
+    background-image: url('../images/lupa.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+}
+.microfono{
+    background-image: url('../images/micro.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.botones{
+    width: 530px;
+    margin: 0 auto;
+}
+main .botones div{
+    display: inline-flex
+
+}
+
+.botones div button{
+    height: 36px;
+    background-color: #f2f2f2;
+    border: none;
+    font-size: 14px;
+    color: #5f6368;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-right: 15px;
+}
+.botones div button:hover {
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px black;
+}
+
+footer{
+width: 100%;
+height: 50px;
+position: absolute;
+bottom: 0;
+display: grid;
+grid-template-columns: 1fr 1fr;
+align-items: center;
+font-size: 13px;
+background-color: #f2f2f2;
+border-top: 1px solid #e4e4e4 ;
+}
+footer ul{
+    display: inline-flex;
+    margin 20px;
+    list-style: none;
+    padding-left: 0;
+}
+.footerizquierda{
+    justify-content: left;
+
+}
+.footerderecha{
+    justify-content: right;
+}
+
+footer ul li a{
+    margin: 10px;
+    color: #5f6368;
+}
